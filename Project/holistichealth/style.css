@@ -3,20 +3,22 @@
 *{
     margin:0px;
     padding: 0px;
+    border:border-box;
     
 }
 
 body{
     background-color:  rgb(255, 239, 237);
     background-color:  rgb(240, 255, 237);
+    overflow-x:hidden;
 }
 
 main{
     /* padding: 15px; */
     background-color: rgb(0, 0, 0);
-    border: 5px solid rgb(230, 114, 101);
+/*     border: 5px solid rgb(230, 114, 101);
     border: 10px solid rgb(255, 239, 237);
-    border: 10px solid  rgb(240, 255, 237);
+    border: 10px solid  rgb(240, 255, 237); */
 
     
     /* display: flex; */
@@ -37,6 +39,8 @@ main{
     display: flex;
     flex-direction: column;
     gap:250px;
+     border: 10px solid  rgb(240, 255, 237);
+
 }
 
 nav{
